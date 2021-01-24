@@ -96,7 +96,7 @@ const TableList: React.FC<{}> = () => {
       },
     },
     {
-      title: '描述',
+      title: '描述guck',
       dataIndex: 'desc',
       valueType: 'textarea',
     },
