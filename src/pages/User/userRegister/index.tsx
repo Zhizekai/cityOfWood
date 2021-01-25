@@ -286,7 +286,6 @@ class UserRegister extends Component {
               <Button  type="primary" >直接登录</Button>
             </div>
           </div>
-
         </Col>
       </Row>
     );
