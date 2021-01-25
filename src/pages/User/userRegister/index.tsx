@@ -269,6 +269,8 @@ class UserRegister extends Component {
             </Form>
           </div>
         </Col>
+
+
         <Col flex={2} >
           <div  style={{borderLeft: '1px solid #b0b0b0',width:'100%',height:'400px'}}>
             <div style={{width:'300px',margin:'30px auto'}}>
