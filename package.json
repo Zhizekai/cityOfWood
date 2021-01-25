@@ -35,9 +35,15 @@
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
     "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": ["prettier --write"]
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ]
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 10"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "@ant-design/pro-descriptions": "^1.2.0",
@@ -51,11 +57,12 @@
     "@types/lodash.debounce": "^4.0.6",
     "@types/lodash.isequal": "^4.5.5",
     "@umijs/route-utils": "^1.0.33",
-    "antd": "^4.9.4",
+    "antd": "^4.10.3",
     "bizcharts": "^3.5.3-beta.0",
     "bizcharts-plugin-slider": "^2.1.1-beta.1",
     "classnames": "^2.2.6",
     "dva": "^2.4.0",
+    "enquire-js": "^0.2.1",
     "gg-editor": "^2.0.2",
     "lodash": "^4.17.11",
     "lodash-decorators": "^6.0.0",
@@ -68,6 +75,10 @@
     "omit.js": "^2.0.2",
     "prop-types": "^15.5.10",
     "qs": "^6.9.0",
+    "rc-banner-anim": "^2.4.5",
+    "rc-queue-anim": "^1.8.5",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-tween-one": "^2.7.3",
     "react": "^17.0.0",
     "react-dev-inspector": "^1.1.1",
     "react-dom": "^17.0.0",
@@ -112,7 +123,9 @@
     "stylelint": "^13.0.0",
     "typescript": "^4.0.3"
   },
-  "engines": { "node": ">=10.0.0" },
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "checkFiles": [
     "src/**/*.js*",
     "src/**/*.ts*",

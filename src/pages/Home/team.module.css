@@ -1,0 +1,23 @@
+.team_photo {
+  height: 304px;
+  width: 244px;
+  padding: 2px;
+}
+
+.cover_page {
+  background: rgba(0,0,0,0.4) !important;
+  z-index: 10;
+  height: 400px;
+  position: fixed;
+  width: 240px;
+  pointerEvents:'none'
+}
+.cover_page_box {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.text_title {
+ color: #cccccc;
+}

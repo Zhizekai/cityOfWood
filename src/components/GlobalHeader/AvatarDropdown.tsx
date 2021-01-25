@@ -1,4 +1,5 @@
 import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
+// @ts-ignore
 import { Avatar, Menu, Spin } from 'antd';
 import React from 'react';
 import type { ConnectProps } from 'umi';
